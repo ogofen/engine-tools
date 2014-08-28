@@ -1,0 +1,6 @@
+SUCCESS|
+|WARN|
+|DEBUG|
+|True|
+|INFO|
+|Task ID .{36}

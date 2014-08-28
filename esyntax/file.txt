@@ -1,0 +1,3 @@
+org.ovirt.engine.core.common.businessentities|
+|org.ovirt.engine.core.bll.tasks|
+|org.ovirt.engine.core.dal.dbbroker.auditloghandling
