@@ -30,17 +30,3 @@ alias less!="vi -u NONE -R /var/log/ovirt-engine/engine.log -S /root/log.vim '+s
  alias yum="noglob yum"
 # Customize to your needs...
 
-OK=$(cat /root/esyntax/Ok.txt)
-CLASS=$(cat /root/esyntax/class.txt)
-FILE=$(cat /root/esyntax/file.txt)
-REG=$(cat /root/esyntax/regular.txt)
-ERR=$(cat /root/esyntax/Err.txt)
-FUNC=$(cat /root/esyntax/engineAPI.txt)
-export OK
-export CLASS
-export REG
-export ERR
-export FUNC
-export FILE
-
-
