@@ -11,9 +11,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 plugins=(git)
-export ZSH=/root/oh-my-zsh
 setopt extended_glob
-source $ZSH/oh-my-zsh.sh
+source /root/oh-my-zsh/oh-my-zsh.sh
 bindkey -s "^[e" "^qgit_prompt_info\n"
 set agnoster
 #set +oglob
