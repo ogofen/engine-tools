@@ -28,5 +28,6 @@ alias less!="vi -u NONE -R /var/log/ovirt-engine/engine.log -S /root/log.vim '+s
  alias vi="vim"
  alias monitor="/root/.monitor"
  alias yum="noglob yum"
+ alias find="noglob find"
 # Customize to your needs...
 
