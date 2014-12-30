@@ -30,4 +30,4 @@ alias less!="vi -u NONE -R /var/log/ovirt-engine/engine.log -S /root/log.vim '+s
  alias yum="noglob yum"
  alias find="noglob find"
 # Customize to your needs...
-
+alias puppet-engine-setup="echo 1>setupflag;puppet agent -t"
