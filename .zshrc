@@ -19,7 +19,7 @@ set agnoster
 #set +oglob
 bind -r "\C-s" > /dev/null 2>&1
 stty -ixon > /dev/null 2>&1
-
+export DISABLE_AUTO_TITLE=true
 autoload -Uz promptinit
 promptinit
 prompt adam1
