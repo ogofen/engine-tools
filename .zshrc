@@ -10,6 +10,8 @@ OS=$T[1]
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+export ZSH=/root/oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 plugins=(git)
 setopt extended_glob
 bindkey -s "^[e" "^qgit_prompt_info\n"
