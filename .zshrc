@@ -27,7 +27,7 @@ prompt adam1
 alias less!="vi -u NONE -R /var/log/ovirt-engine/engine.log -S /root/log.vim '+set nonu' 'set nowrap'"
 # User specific aliases and functions
 function add_host {
-  curl --insecure --header "Content-Type:application/xml" -X POST -d @/root/Rest-Api-Qe/$1  --user "admin@internal:qum5net" https://$HOSTNAME/api/hosts --ver
+  curl --insecure --header "Content-Type:application/xml" -X POST -d @/root/Rest-Api-Qe/$1.xml  --user "admin@internal:qum5net" https://$HOSTNAME/api/hosts
   }
 
  alias vi="vim"
