@@ -39,3 +39,6 @@ function add_host {
  alias find="noglob find"
 # Customize to your needs...
 alias puppet-engine-setup='echo "1">setupflag;puppet agent -t'
+HISTSIZE=5000 # session history size
+SAVEHIST=1000 # saved history
+HISTFILE=~/.zshistory # history file
